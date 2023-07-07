@@ -1,0 +1,16 @@
+name = "devtest"
+host = "127.0.0.1"
+port = 66200
+players = 128
+#password = "ultra-password"
+announce = false
+#token = "YOUR_TOKEN"
+gamemode = "Freeroam"
+website = "example.com"
+language = "English"
+description = "devtest"
+modules = [ "js-module" ]
+debug = true
+resources = [
+  "main"
+]

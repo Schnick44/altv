@@ -1,0 +1,22 @@
+{
+  "name": "altv",
+  "version": "1.0.0",
+  "description": "GTA5 altv playground",
+  "main": "index.js",
+  "author": "schnick",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "libs/*",
+    "alt/*",
+    "dbclient"
+  ],
+  "scripts": {
+    "build": "./scripts/build.sh && yarn workspaces run build && ./scripts/postbuild.sh",
+    "update": "./scripts/altv-update-win.sh release",
+    "start": "cd dist/altv && server.exe"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

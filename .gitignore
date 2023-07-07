@@ -1,0 +1,12 @@
+node_modules/
+yarn-error.log
+.env
+dev/
+
+bin/altv/data/
+bin/altv/modules/
+bin/altv/server.exe
+build/
+dist/
+
+docker/postgres

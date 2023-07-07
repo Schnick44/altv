@@ -1,0 +1,12 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:14.4
+    volumes:
+      - "./docker/postgres:/var/lib/postgresql/data"
+    container_name: "schnick-altv-postgres"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - 5432:5432

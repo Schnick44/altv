@@ -1,0 +1,1 @@
+cp -a ./altv/server/express/html/ ./dist/altv/resources/main/server/express/
