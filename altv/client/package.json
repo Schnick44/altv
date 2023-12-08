@@ -1,0 +1,14 @@
+{
+  "name": "@schnick/client",
+  "version": "1.0.0",
+  "description": "Contains client run code",
+  "main": "index.ts",
+  "author": "schnick",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "test": "echo ''"
+  }
+}

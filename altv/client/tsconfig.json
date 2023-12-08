@@ -1,0 +1,19 @@
+{
+  "include": ["."],
+  "extends": "@schnick/ts-config/tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "target": "ESNEXT",
+    "module": "ESNEXT",
+    "outDir": "../../dist/altv/resources/main/client",
+    "types": [
+      "@altv/types-natives",
+      "@altv/types-client",
+      "@altv/types-shared",
+      "@altv/types-worker",
+      "@altv/types-webview",
+      "@types/schnick"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+@use "sass:math";
+
+@mixin default-font {
+  font-family: ML;
+  font-size: 20px;
+}
+
+/*
+@mixin default-font {
+    font-family: PL;
+    font-size: 16px;
+}
+*/
+
+@mixin default-preset {
+  @include default-font;
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: $c-secondary;
+  color: $c-font-default;
+}
+
+@mixin default-box-shadow($blur, $color) {
+  box-shadow: 0 0 $blur $color;
+}
+
+@mixin fill-parent {
+  height: 100%;
+  width: 100%;
+}
+
+@mixin wrapper-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}

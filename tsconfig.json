@@ -1,9 +1,9 @@
 {
   "files": [],
   "references": [
-    { "path": "./alt/server/tsconfig.json" },
-    { "path": "./alt/client/tsconfig.json" },
-    { "path": "./alt/interface/tsconfig.json" },
-    { "path": "./dbclient/"}
+    { "path": "./altv/server/tsconfig.json" },
+    { "path": "./altv/client/tsconfig.json" },
+    { "path": "./altv/interface/tsconfig.json" },
+    { "path": "./dbclient/tsconfig.json"}
   ]
 }

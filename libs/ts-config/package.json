@@ -1,0 +1,21 @@
+{
+  "name": "@schnick/ts-config",
+  "version": "1.0.0",
+  "description": "Contains the base tsconfig for other projects and apps",
+  "main": "index.ts",
+  "author": "schnick",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "echo ''",
+    "test": "echo ''"
+  },
+  "workspaces": {
+    "nohoist": [
+      "typescript"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "include": ["."],
+  "extends": "@schnick/ts-config/tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "../../dist/altv/resources/main/server",
+    "types": [
+      "@altv/types-server",
+      "@altv/types-shared",
+      "@types/node",
+      "@types/schnick/server"
+    ],
+    "noEmit": false
+  }
+}

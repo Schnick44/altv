@@ -1,0 +1,31 @@
+{
+  "name": "@schnick/server",
+  "version": "1.0.0",
+  "description": "Contains altv server files",
+  "main": "index.ts",
+  "author": "schnick",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "echo ''"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "dataloader": "^2.1.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "env-var": "^7.3.0",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "sjcl": "^1.0.8"
+  },
+  "devDependencies": {
+    "@schnick/ts-config": "*",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.15",
+    "@types/lodash": "^4.14.191",
+    "@types/sjcl": "^1.0.30",
+    "prettier": "^2.8.3"
+  }
+}

@@ -1,0 +1,23 @@
+@import "fonts";
+
+html,
+body,
+#app,
+main {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: transparent;
+  margin: 0;
+
+  background-image: url("../assets/bg.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}

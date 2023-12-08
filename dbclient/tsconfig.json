@@ -1,0 +1,12 @@
+{
+  "include": ["."],
+  "extends": "@schnick/ts-config/tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "../../dist/dbclient",
+    "types": ["@types/node", "@types/schnick"],
+    "noEmit": false
+  }
+}

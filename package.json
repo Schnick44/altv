@@ -8,8 +8,8 @@
   "private": "true",
   "workspaces": [
     "libs/*",
-    "alt/*",
-    "dbclient"
+    "altv/*",
+    "dbclient/package.json"
   ],
   "scripts": {
     "build": "./scripts/build.sh && yarn workspaces run build && ./scripts/postbuild.sh",

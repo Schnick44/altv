@@ -1,0 +1,16 @@
+{
+  "name": "@schnick/formatting",
+  "version": "1.0.0",
+  "description": "Contains formatting options and manages prettier version",
+  "main": ".prettierrc.js",
+  "author": "schnick",
+  "private": true,
+  "dependencies": {
+    "prettier": "^2.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "echo ''",
+    "test": "echo ''"
+  }
+}
